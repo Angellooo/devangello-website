@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14.0rc1-slim
 
 # Install security updates and system dependencies
 RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends \
